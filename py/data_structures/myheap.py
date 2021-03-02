@@ -1,4 +1,4 @@
-class Heap:
+class MyHeap:
     def __init__(self, priority):
         self.data = []
         self.priority = priority
@@ -15,11 +15,17 @@ class Heap:
         return return_value
 
     def peek(self):
+        if self.last_index == -1:
+            return None
         return self.data[0]
 
     @property
     def last_index(self):
         return len(self.data) - 1
+
+    @property
+    def size(self):
+        return self.last_index + 1
 
     def _bubble_up(self, index):
         parent_index = self._get_parent_index(index)
@@ -38,7 +44,7 @@ class Heap:
             child_index = left_child_index
         else:
             child_index = right_child_index if self.priority(self.data[right_child_index]) >= self.priority(self.data[left_child_index]) else left_child_index
-        if self.data[index] < self.data[child_index]:
+        if self.priority(self.data[index]) < self.priority(self.data[child_index]):
             self._swap(index, child_index)
             self._bubble_down(child_index)
 
@@ -51,6 +57,6 @@ class Heap:
         return (2 * index) + 1
 
     def _swap(self, index, new_index):
-        if new_index == -1:
+        if new_index == -1 or index == -1:
             pass
         self.data[index], self.data[new_index] = self.data[new_index], self.data[index]
