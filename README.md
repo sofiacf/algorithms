@@ -4,5 +4,5 @@
 
 Implementations for the algorithms section of Dale
 Alleshouse's [Hideous Humpback Freak](https://hideoushumpbackfreak.com/algorithms/) blog, mostly in Python. Check out
-Dale's work [here](https://github.com/dalealleshouse/algorithms)! Discord server with feedback for
+Dale's work [here](https://github.com/dalealleshouse/algorithms)! Join the Discord server for feedback for
 Dale [here](https://discord.gg/tcJqhzN4ya).
