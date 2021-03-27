@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.com/dalealleshouse/algorithms.svg?branch=master)](https://travis-ci.com/dalealleshouse/algorithms)
 
 # Algorithms
-Code for the algorithms section of the [Hideous Humpback
-Freak](https://hideoushumpbackfreak.com/algorithms/) blog. See the [Source
-Code](https://hideoushumpbackfreak.com/algorithms/source-code) section for
-information about directory structure, building, validating, and pull requests.
-Questions and comments should be left on the blog site.
+
+Implementations for the algorithms section of Dale
+Alleshouse's [Hideous Humpback Freak](https://hideoushumpbackfreak.com/algorithms/) blog, mostly in Python. Check out
+Dale's work [here](https://github.com/dalealleshouse/algorithms)! Discord server with feedback for
+Dale [here](https://discord.gg/tcJqhzN4ya).
